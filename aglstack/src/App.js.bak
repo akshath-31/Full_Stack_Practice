@@ -1,0 +1,33 @@
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  function Namechange()
+  {
+    const name = ["Earn","Give","Invest","Grow"];
+    const value = Math.floor(Math.random()*4);
+    return name[value]   
+̥  }
+  
+  return (
+    <div className="Akshath">
+    <p>Lets {Namechange()}</p>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Rohan Than POOLE
+        </p>
+        <a
+          className="App-link"
+          href="https://akshathsenthilkumar.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Aks Learns react
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;
