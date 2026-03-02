@@ -51,12 +51,6 @@ function App() {
       >
         Toggle to {isDarkMode ? 'Light' : 'Dark'} Mode
       </button>
-      
-      <div style={{ marginTop: '40px' }}>
-        <h2>About this app</h2>
-        <p>This application demonstrates state persistence using <code>localStorage</code>.</p>
-        <p>Try refreshing the page, and the theme selection will be remembered.</p>
-      </div>
     </div>
   );
 }
